@@ -1,0 +1,15 @@
+services:
+  app: &app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: echo "Disabled by default"
+    volumes:
+      - .:/var/www/app
+
+  server:
+    <<: *app
+    command: bundle exec jekyll serve --livereload --host 0.0.0.0
+    ports:
+      - 4000:4000
+      - 35729:35729
