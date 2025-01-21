@@ -17,6 +17,9 @@ gem "jekyll", "~> 4.3"
 # New theme
 gem "jekyll-theme-chirpy", "~> 7.2", ">= 7.2.4"
 
+# To run the tests on the gh workflow
+gem "html-proofer", "~> 5.0", group: :test
+
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line of the gem. To upgrade, run `bundle update github-pages`.
 
