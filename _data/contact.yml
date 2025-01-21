@@ -1,0 +1,17 @@
+#  The contact options.
+
+- type: github
+  icon: "fab fa-github"
+  url:  "https://github.com/fabiosammy"
+
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url:  "https://www.linkedin.com/in/fabiosammy"
+
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
+  url:  "https://x.com/fabiosammy"
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
